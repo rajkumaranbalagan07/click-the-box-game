@@ -18,6 +18,12 @@ const Game = () => {
   const startGame = () => {
     setIsPlaying(true);
   };
+  const getRandomPosition = () => {
+    const top = Math.random() * (window.innerHeight - 100);
+    const left = Math.random() * (window.innerWidth - 100);
+    return { top, left };
+  };
+  
 
   const handleClick = () => {
     setScore(score + 1);
@@ -40,6 +46,14 @@ const Game = () => {
     setIsPlaying(false);
     setIsEnded(true);
   };
+
+  const handleRestart = () => {
+    setIsPlaying(true);
+    setScore(0);
+    setBoxPosition(getRandomPosition());
+    setIsEnded(false);
+  };
+
 
   return (
     <div className="relative h-screen w-screen bg-gradient-to-r from-blue-500 to-green-500">
@@ -99,6 +113,13 @@ const Game = () => {
             height={typeof window !== 'undefined' ? window.innerHeight : 0}
             numberOfPieces={500}
           />
+          {/* Add the restart button */}
+          <button
+            className="mt-4 bg-blue-600 text-white font-bold py-2 px-4 rounded"
+            onClick={handleRestart}
+          >
+            Restart
+          </button>
         </div>
       )}
 
