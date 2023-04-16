@@ -1,38 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Click the Box Game
+
+A simple, fun "Click the Box" game built using Next.js, Tailwind CSS, and additional libraries. The objective of the game is to click a moving box as many times as possible within a given time frame. The game includes a background, sound effects, and a countdown timer.
+
+## Features
+
+- Simple and fun gameplay
+- Responsive design
+- Tailwind CSS for styling
+- Countdown timer
+- Sound effects on click
+- Confetti celebration on game end
+
+## Technologies
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Confetti](https://github.com/alampros/react-confetti)
+- [React Countdown Circle Timer](https://github.com/vydimitrov/react-countdown-circle-timer)
+- [Howler.js](https://howlerjs.com/)
 
 ## Getting Started
 
-First, run the development server:
+To run the game locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. Clone the repository:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+git clone https://github.com/yourusername/click-the-box-game.git
+cd click-the-box-game
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+2. Install dependencies:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Run the development server:
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+4. Open your browser and navigate to `http://localhost:3000` to start playing the game.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
