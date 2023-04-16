@@ -35,7 +35,7 @@ cd click-the-box-game
 3. Run the development server:
 
 
-4. Open your browser and navigate to `http://localhost:3000` to start playing the game.
+4. Open your browser and navigate to `http://localhost:8080` to start playing the game.
 
 ## Contributing
 
