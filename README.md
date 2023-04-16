@@ -25,7 +25,7 @@ To run the game locally, follow these steps:
 
 1. Clone the repository:
 
-git clone https://github.com/yourusername/click-the-box-game.git
+git clone https://github.com/rajkumaranbalagan07/click-the-box-game.git
 cd click-the-box-game
 
 
