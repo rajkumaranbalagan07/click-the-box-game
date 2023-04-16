@@ -23,7 +23,7 @@ const Game = () => {
     const left = Math.random() * (window.innerWidth - 100);
     return { top, left };
   };
-  
+
 
   const handleClick = () => {
     setScore(score + 1);
@@ -114,12 +114,17 @@ const Game = () => {
             numberOfPieces={500}
           />
           {/* Add the restart button */}
-          <button
-            className="mt-4 bg-blue-600 text-white font-bold py-2 px-4 rounded"
-            onClick={handleRestart}
-          >
-            Restart
-          </button>
+
+          <div>
+            <button
+              className="mt-4 bg-blue-600 text-white font-bold py-2 px-4 rounded"
+              onClick={handleRestart}
+            >
+              Restart
+            </button>
+
+          </div>
+
         </div>
       )}
 
